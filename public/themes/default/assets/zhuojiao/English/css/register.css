@@ -1,0 +1,332 @@
+.headImgWarp {
+    width: 100%;
+    height: 104px;
+    margin-bottom: 30px;
+}
+
+.inputWarp {
+    width: 100%;
+    height: 57px;
+    margin-bottom: 30px;
+}
+
+.leftTittle {
+    display: block;
+    float: left;
+    width: 30%;
+    height: 57px;
+    text-align: right;
+    padding-right: 2%;
+    line-height: 57px;
+}
+
+.headImgTittle {
+    /*height: 104px;*/
+    line-height: 104px;
+}
+
+.headImg {
+    width: 103px;
+    height: 104px;
+    float: left;
+    /*background-color: #def4fe;*/
+    background: url("../images/headImg000.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.form {
+    max-width: 850px;
+}
+
+.inputBox, .selectWarp .layui-input, .layui-textarea {
+    width: 70%;
+    height: 57px;
+    float: left;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: solid 1px #cccccc;
+    padding-left: 4px;
+    position: relative;
+}
+
+.form .layui-form-select .layui-edge {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -3px;
+    cursor: pointer;
+    border-width: 6px;
+    border-top-color: #c2c2c2;
+    border-top-style: solid;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+}
+
+.layui-form-select {
+    position: relative;
+    height: 100%;
+}
+
+.layui-form-select dl {
+    left: 30%;
+    top: 57px;
+    min-width: 70%;
+}
+
+.submit {
+    display: block;
+    width: 70%;
+    height: 60px;
+    float: right;
+    background-color: #969dd3;
+    border-radius: 5px;
+    font-family: ArialMT;
+    font-size: 28px;
+    line-height: 60px;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+}
+
+.form .address, .address .form-control {
+    display: block;
+    width: 33%;
+    float: left;
+    height: 100%;
+    border: none;
+    outline: none;
+    margin-bottom: 0;
+}
+
+.address .form-control {
+    width: 100%;
+}
+
+.address .layui-form-select, .address .layui-select-title {
+    height: 100%;
+}
+
+.address .layui-input {
+    border: none;
+    height: 100%;
+}
+
+.area {
+    width: 70%;
+    float: right;
+    margin-left: 0;
+}
+
+.cityInner {
+    width: 70%;
+    float: left;
+    margin-left: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+#uploadFile {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.verificationCodeBtn {
+    display: block;
+    width: 20%;
+    height: 100%;
+    background-color: #969dd3;
+    border-radius: 5px;
+    float: left;
+    text-align: center;
+    font-family: SourceHanSansCN-Regular;
+    font-size: 16px;
+    line-height: 57px;
+    color: #ffffff;
+    margin-left: 7%;
+    border: none;
+    outline: none;
+}
+
+.prompt {
+    color: red;
+    width: 70%;
+    float: right;
+    margin-top: 2px;
+}
+
+.headImgPrompt{
+    width: 103px;
+    float: left;
+    margin-right: 6px;
+    text-align: center;
+}
+@media (max-width: 767px) {
+    .headImgPrompt{
+        width: 66px;
+        float: left;
+        margin-right: 6px;
+        text-align: center;
+    }
+    .main {
+        padding-top: 50px;
+    }
+
+    .headImg {
+        width: 66px;
+        height: 72px;
+        float: left;
+        /* background-color: #def4fe; */
+        background: url(../images/headImg000.png) no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .headImgTittle {
+        line-height: 73px;
+    }
+
+    .headImgWarp {
+        height: 73px;
+        margin-top: 40px;
+    }
+
+    .leftTittle {
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        text-align: left;
+    }
+
+    .inputBox, .selectWarp .layui-input, .layui-textarea {
+        width: 100%;
+        height: 30px;
+    }
+
+    .inputWarp {
+        width: 100%;
+        height: auto;
+        min-height: 60px;
+        margin-bottom: 15px;
+    }
+
+    .form .layui-form-select .layui-edge {
+        position: absolute;
+        right: 10px;
+        top: 43px;
+        margin-top: 0;
+        cursor: pointer;
+        border-width: 6px;
+        border-top-color: #c2c2c2;
+        border-top-style: solid;
+        transition: all .3s;
+        -webkit-transition: all .3s;
+    }
+
+    .city {
+        height: 77px;
+        margin-left: 0;
+    }
+
+    .area {
+        width: 100%;
+        float: left;
+        margin-left: 0;
+    }
+
+    .area .layui-form-checkbox span {
+        padding: 0 5px;
+        display: block;
+        float: left;
+        width: 85%;
+        font-size: 12px;
+    }
+
+    .cityInner {
+        width: 100%;
+    }
+
+    .submit {
+        float: none;
+        margin: 50px auto;
+        width: 80%;
+        height: 37px;
+        line-height: 37px;
+        font-family: SourceHanSansCN-Medium;
+        font-size: 14px;
+        color: #ffffff;
+    }
+
+    .verificationCodeBtn {
+        display: block;
+        width: 28%;
+        height: 100%;
+        background-color: #969dd3;
+        border-radius: 5px;
+        float: left;
+        text-align: center;
+        font-family: SourceHanSansCN-Regular;
+        font-size: 12px;
+        line-height: 30px;
+        color: #ffffff;
+        margin-left: 7%;
+        border: none;
+        outline: none;
+    }
+
+    #uploadFile {
+        transform: translateY(0);
+    }
+
+    .prompt {
+        margin-top: 10px;
+        float: left;
+    }
+}
+/*-----------------------------------------------------------------------------------*/
+.layui-form-checked, .layui-form-checked:hover {
+    border-color: #969dd3;
+}
+
+.layui-form-checked span, .layui-form-checked:hover span {
+    background-color: #969dd3;
+}
+
+.layui-form-checked i, .layui-form-checked:hover i {
+    color: #969dd3;
+}
+
+.layui-form-select dl dd.layui-this {
+    background-color: #969dd3;
+    color: #fff;
+}
+/*.checkboxWarp{*/
+/*width: 33%;*/
+/*float: left;*/
+/*}*/
+.layui-form-checkbox {
+    position: relative;
+    width: 48%;
+    margin-right: 0;
+    padding-right: 0;
+}
+.city .layui-form-checkbox{
+    width: 32%;
+}
+.layui-form-checkbox span {
+    padding: 0 5px;
+    display: block;
+    float: left;
+    width: 70%;
+}
+
+.layui-form-checkbox i {
+    position: relative;
+    width: 23px;
+    height: 30px;
+}
+.headImg{
+    margin-right: 6px;
+}

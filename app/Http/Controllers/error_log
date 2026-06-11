@@ -1,0 +1,9 @@
+[27-Jul-2019 13:17:23 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/zteachers/public_html/zhuojiao/app/Http/Controllers/ApiBaseController.php on line 12
+[27-Jul-2019 13:17:28 UTC] PHP Fatal error:  Class 'Illuminate\Routing\Controller' not found in /home/zteachers/public_html/zhuojiao/app/Http/Controllers/BasicController.php on line 15
+[27-Jul-2019 13:17:32 UTC] PHP Fatal error:  Class 'Illuminate\Routing\Controller' not found in /home/zteachers/public_html/zhuojiao/app/Http/Controllers/Controller.php on line 11
+[27-Jul-2019 13:17:36 UTC] PHP Fatal error:  Class 'App\Http\Controllers\IndexController' not found in /home/zteachers/public_html/zhuojiao/app/Http/Controllers/HomeController.php on line 33
+[27-Jul-2019 13:17:39 UTC] PHP Fatal error:  Class 'App\Http\Controllers\BasicController' not found in /home/zteachers/public_html/zhuojiao/app/Http/Controllers/IndexController.php on line 16
+[27-Jul-2019 13:17:43 UTC] PHP Fatal error:  Class 'App\Http\Controllers\BasicController' not found in /home/zteachers/public_html/zhuojiao/app/Http/Controllers/IndexEnController.php on line 11
+[27-Jul-2019 13:17:48 UTC] PHP Fatal error:  Class 'App\Http\Controllers\BasicController' not found in /home/zteachers/public_html/zhuojiao/app/Http/Controllers/ManageController.php on line 15
+[27-Jul-2019 13:17:52 UTC] PHP Fatal error:  Class 'App\Http\Controllers\IndexController' not found in /home/zteachers/public_html/zhuojiao/app/Http/Controllers/SubstationController.php on line 11
+[27-Jul-2019 13:17:56 UTC] PHP Fatal error:  Class 'App\Http\Controllers\BasicController' not found in /home/zteachers/public_html/zhuojiao/app/Http/Controllers/UserCenterController.php on line 16

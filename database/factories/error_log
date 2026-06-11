@@ -1,0 +1,1 @@
+[27-Jul-2019 07:47:31 UTC] PHP Fatal error:  Call to a member function define() on null in /home/zteachers/public_html/zhuojiao/database/factories/ModelFactory.php on line 14

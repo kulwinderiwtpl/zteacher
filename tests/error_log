@@ -1,0 +1,2 @@
+[26-Jul-2019 21:47:27 UTC] PHP Fatal error:  Class 'TestCase' not found in /home/zteachers/public_html/zhuojiao/tests/ExampleTest.php on line 8
+[26-Jul-2019 21:47:30 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/zteachers/public_html/zhuojiao/tests/TestCase.php on line 4

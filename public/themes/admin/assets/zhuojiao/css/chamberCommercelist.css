@@ -1,0 +1,404 @@
+.chamberCommercelist-content{
+    width: 97%;
+    margin: 20px auto 0 auto;
+    /* min-height: 600px; */
+    height: auto;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 0 2px #dddde1;
+    padding-bottom: 40px
+}
+
+/*表单*/
+.layui-form{
+    /*padding: 17px 0 10px 50px;*/
+}
+.layui-form-label{
+    width: 120px;
+    padding: 9px 10px 9px 0;
+    color: #3f4c6b;
+    text-align: center;
+}
+.layui-form-select .layui-input{
+    border: 1px solid #3f4c6b;
+    border-radius: 20px;
+}
+.layui-form-select .layui-edge{
+    border-top-color: #3f4c6b;
+    right: 20px;
+}
+.layui-form-select dl dd.layui-this{
+    background-color: #3f4c6b;
+}
+
+.layui-form-item{
+    margin: 20px 0;
+}
+
+.add-input{
+    
+}
+.layui-input{
+    width: 96%;
+    /*background-color: #f6f6fa;*/
+}
+.submit-return{
+    width: 130px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.layui-input-upload img{
+    width: 130px;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+
+/*表单
+ 编辑页面
+ * */
+.add{
+    width: 110px;
+}
+/*星号**/
+.asterisk{
+    font-size: 25px;
+    color: red;
+}
+/*文本框*/
+.layui-textarea{
+    width: 500px;
+    min-width: 500px;
+}
+.layui-inline{
+    margin-left: 20px;
+}
+/*会徽上传*/
+.emblem{
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    background: url(../img/huihui.png);
+    background-size: 100% 100%;
+}
+.emblem:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.emblem span{
+    display: block;
+    margin-top: 55px;
+    line-height: 15px;
+}
+/*保存按钮*/
+#save{
+    width: 250px;
+    margin: 50px 110px;
+}
+/*操作按钮*/
+.layui-btn-operation{
+    width: 25%;
+    padding: 0 5%;
+}
+
+/*表格*/
+.layui-table{
+    margin-top: 0;
+}
+.layui-table td, .layui-table th{
+    text-align: center;
+}
+.min{
+    min-width: 250px;
+}
+
+.update{
+    padding: 8px 12px;
+}
+.delete{
+    padding: 8px 15px;
+}
+.collection{
+    padding: 8px 15px;
+}
+
+/*分页*/
+#demo1{
+    text-align: right;
+    padding: 20px 10px 20px 0;
+}
+#demo2{
+    text-align: right;
+    padding: 20px 10px 20px 0;
+}
+#demo3{
+    text-align: right;
+    padding: 20px 10px 20px 0;
+}
+#demo4{
+    text-align: right;
+    padding: 20px 10px 20px 0;
+}
+
+/*检索按钮*/
+#retrieve{
+    margin: 0 20px 8px 40px;
+}
+
+
+/*商会管理页面*/
+.shgl{
+    display: block;
+    margin: -30px 0 0 -30px
+}
+
+/*选项卡*/
+.layui-tab-card{
+    /*position: absolute;*/
+    width: 100%;
+    height: auto;
+    margin: 0;
+    min-height: 600px;
+}
+.layui-tab-title{
+    margin-bottom: 0;
+}
+.layui-form-content{
+    padding: 10px 0 10px 50px
+}
+.laber{
+    width: 80px;
+    padding: 9px 10px 0 0;
+}
+.items{
+    margin-bottom: 0;
+}
+
+.table-sh a{
+    margin: 0 20px 0 0;
+}
+
+
+.layui-btn{
+    background-color: inherit;
+    background: -webkit-linear-gradient(left, #3f4c6b , #606c88); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #3f4c6b, #606c88); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #3f4c6b, #606c88); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #3f4c6b , #606c88); /* 标准的语法 */
+}
+
+.iconfont{
+    display: inline-block;
+    /*padding: 5px 15px;*/
+    cursor: pointer;
+}
+
+.layui-table tbody tr:hover, .layui-table thead tr, .layui-table-click, .layui-table-header, .layui-table-hover, .layui-table-mend, .layui-table-patch, .layui-table-tool, .layui-table-total, .layui-table-total tr, .layui-table[lay-even] tr:nth-child(even){
+    background-color: #f6f6fa;
+}
+.layui-table td, .layui-table th{
+    padding: 15px 15px;
+}
+.layui-table thead tr th{
+    padding: 20px 15px;
+}
+
+.layui-table tr:last-child{
+    border-radius: 8px;
+}
+
+.layui-table img{
+    width: auto;
+    max-width: 100px;
+}
+
+.app-breadcrumb li{
+    margin-left: 20px;
+}
+
+/*回收站*/
+.column-title{
+    display: inherit;
+    text-align: center;
+}
+
+
+
+/*新*/
+.layui-input, .layui-select, .layui-textarea{
+    border-width: 2px;
+}
+
+.app-title{
+    box-shadow: none;
+    border: none;
+}
+
+.layui-layedit-tool{
+    padding: 0;
+}
+.icon-ai-edit{
+    padding: 0 0 0 10px;
+    color: #000249;
+}
+.editor{
+    font-size: 18px;
+    width: 250px;
+    height: 38px;
+    border: 1px solid #000249;
+    display: none;
+    color: #3f4c6b;
+    font-weight: 400;
+}
+.submit{
+    display: none;
+    margin: 0 0 5px 10px;
+    height: 30px;
+    line-height: 30px;
+}
+.introduce, .service, .target{
+    display: inline-block;
+}
+.introduce-submit{
+    display: inline-block;
+}
+
+.affirm{
+    margin: 10px 20px 10px 130px;
+    padding: 0 35px;
+    font-size: 16px;
+    height: 34px;
+    line-height: 34px;
+    display: block;
+}
+
+.lj-input{
+    display: inline-block;
+    width: 80%;
+    background-color: #FFFFFF;
+    margin: 10px 20px;
+}
+
+i.icon-chahao{
+    font-size: 25px;
+    color: #919aaa;
+}
+
+.foreign{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+
+.layui-textareanew{
+    width: 80%;
+    height: 150px;
+    /*margin-left: 20px;*/
+}
+
+.app-title h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 400;
+    color: #3f4c6b;
+    line-height: 38px;
+    margin-bottom: 10px;
+}
+.app-title h2 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 400;
+    color: #3f4c6b;
+    line-height: 38px;
+}
+.app-title h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #3f4c6b;
+    line-height: 38px;
+}
+.app-title h4 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #3f4c6b;
+    line-height: 38px;
+}
+
+
+
+.layui-form-checkbox i{
+    height: 30px;
+}
+
+.resume{
+    margin-top: 5px;
+}
+
+.layui-form-checked span, .layui-form-checked:hover span{
+    background-color: inherit;
+    background: -webkit-linear-gradient(left, #3f4c6b , #606c88); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #3f4c6b, #606c88); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #3f4c6b, #606c88); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #3f4c6b , #606c88); /* 标准的语法 */
+}
+.layui-form-checked i, .layui-form-checked:hover i{
+    color: #606c88;
+}
+.layui-laydate .layui-this{
+    background-color: inherit;
+    background: -webkit-linear-gradient(left, #3f4c6b , #606c88); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #3f4c6b, #606c88); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #3f4c6b, #606c88); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #3f4c6b , #606c88); /* 标准的语法 */
+}
+
+.layui-form-radio>i:hover, .layui-form-radioed>i{
+    color: #606c88;
+}
+.layui-layer-btn .layui-layer-btn0{
+    border-color: #51ddd3;
+    background-color: #51ddd3;
+}
+
+/*.app-sidebar{
+    background-color: #0d77a5;
+}*/
+
+[id^='uploadPictures']{
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+    height: 150px;
+}
+
+/*#uploadPictures{
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+    height: 150px;
+}
+#uploadPictures2{
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+    height: 150px;
+}
+#uploadPictures3 {
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+    height: 150px;
+}*/
+
+.layui-table td, .layui-table th {
+    padding: 15px 0;
+}
+.layui-table thead tr th{
+    padding: 15px 5px;
+}
+.delete, .update{
+    display: inline-block;
+}
+

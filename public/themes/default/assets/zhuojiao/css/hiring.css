@@ -1,0 +1,281 @@
+.titleChinese2 {
+    text-align: left;
+}
+
+.rightContent2 {
+    width: 40%;
+    padding-top: 5%;
+}
+
+.Delete2 {
+    width: 46%;
+}
+
+.title2 {
+    margin-top: 0;
+    text-align: left;
+}
+
+.caseTitle2 {
+    width: 100%;
+    height: 26px;
+    font-family: SourceHanSansCN-Regular;
+    font-size: 14px;
+    line-height: 26px;
+    color: #666666;
+    margin-bottom: 31px;
+    text-align: center;
+}
+
+.treatment {
+    width: 41%;
+    float: left;
+}
+
+.caseDl {
+    width: 32%;
+}
+
+.serviceCase {
+    height: 566px;
+    margin-top: 50px;
+}
+
+.sfbz {
+    height: 466px;
+    margin-top: 50px;
+}
+
+.blank_banner {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+
+.rightContent2 {
+    width: 44%;
+}
+
+.contentWarp {
+    padding: 0;
+}
+
+.joinBottom {
+    background: url("../images/bg01.png") no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 180px;
+    margin-top: 164px;
+}
+
+.joinBottom .titleChinese {
+    margin-bottom: 90px;
+}
+
+#footer {
+    margin-top: 0;
+}
+
+.sfbz .caseDl {
+    width: 30%;
+    margin-right: 5%;
+}
+
+.sfbz .marginR0 , .marginR0 {
+    margin-right: 0;
+}
+.contactBtn{
+    display: block;
+    width: 179px;
+    height: 43px;
+    margin-top: 20px;
+    background-color: #969dd3;
+    font-family: SourceHanSansCN-Medium;
+    font-size: 18px;
+    line-height: 43px;
+    color: #ffffff;
+    text-align: center;
+}
+.standard{
+    height: auto;
+}
+.standardDl{
+    display: block;
+    float: left;
+    width: 33%;
+    height:auto ;
+    margin-top: 82px;
+}
+.standardDt{
+    width: 90px;
+    height:auto;
+    margin: 0 auto;
+}
+.standardDt img{
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+.standardDd{
+    width: 100%;
+    height: 26px;
+    font-family: SourceHanSansCN-Regular;
+    font-size: 16px;
+    line-height: 26px;
+    color: #666666;
+    text-align: center;
+}
+.standardDl2Warp{
+    width: 50%;
+    float: left;
+    height: auto;
+}
+.standardDl2{
+    width: 66%;
+    float: right;
+    margin-top: 82px;
+}
+.standardDl2R{
+    float: left;
+}
+@media (max-width: 1440px) {
+    .rightContent2 {
+        padding-top:2%;
+    }
+    .why {
+        width: 100%;
+        height: auto;
+        font-family: ArialMT;
+        font-size: 14px;
+        line-height: 26px;
+        color: #666666;
+        text-align: justify;
+        max-height: 100px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+    }
+}
+@media (max-width: 992px) {
+    .rightContent2 {
+        padding-top:0;
+    }
+    .serviceCase {
+        height: 606px;
+    }
+}
+@media (max-width: 767px) {
+    .standardDd {
+        width: 100%;
+        height: auto;
+        font-family: SourceHanSansCN-Regular;
+        font-size: 12px;
+        line-height: 20px;
+        color: #666666;
+        text-align: center;
+        padding: 0 4px;
+    }
+    .standardDl , .standardDl2{
+        margin-top: 25px;
+    }
+    .Delete2 {
+        width: 89%;
+        margin: 0 auto;
+        float: none;
+    }
+    .standardDt {
+        width: 50px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .contentWarp {
+        margin-top: 20px;
+    }
+
+    .rightContent2 {
+        width: 100%;
+    }
+
+    .title2 {
+        text-align: center;
+    }
+
+    .deco2 {
+        float: none;
+        margin: 10px auto;
+    }
+
+    .rightContent2 {
+        padding: 0 15px;
+        margin-top: 10px;
+    }
+
+    .serviceCase, .sfbz {
+        width: 80%;
+        margin: 0 auto;
+        height: auto;
+
+    }
+
+    .caseDl, .sfbz .caseDl {
+        width: 100%;
+        border: solid 1px #969dd3;
+        padding: 6.8% 8.3% 12.5% 8.3%;
+        margin: 15px auto;
+    }
+
+    .sfbz .caseDl {
+        padding: 22.8% 9.3% 27.5% 8.3%;
+    }
+
+    .caseTitle2 {
+        margin-bottom: 15px;
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+    .caseIntro {
+        font-size: 11px;
+        line-height: 18px;
+        text-align: justify;
+    }
+
+    .blank_banner, .joinBottom {
+        margin-top: 40px;
+    }
+    .joinBottom {
+        background: none;
+        padding-bottom: 0;
+        margin-top: 0;
+    }
+    .contentWarp{
+        margin-top:0;
+    }
+    .main{
+        padding-bottom: 80px!important;
+    }
+    .rightContent2 {
+        padding-top:0;
+    }
+    .content2 {
+        width: 100%;
+        height: auto!important;
+        max-height: unset;
+        overflow: unset;
+        -webkit-line-clamp: 1000;
+        -webkit-box-orient: vertical;
+    }
+
+    .contactBtn {
+        height: 30px;
+        font-family: SourceHanSansCN-Regular;
+        font-size: 14px;
+        line-height: 30px;
+        color: #ffffff;
+        float: none;
+        margin: 20px auto;
+    }
+}

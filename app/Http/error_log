@@ -1,0 +1,1 @@
+[27-Jul-2019 07:44:32 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\Kernel' not found in /home/zteachers/public_html/zhuojiao/app/Http/Kernel.php on line 8

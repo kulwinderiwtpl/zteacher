@@ -1,0 +1,161 @@
+.title{
+    width: 100%;
+    height: auto;
+    font-family: ArialMT;
+    font-size: 36px;
+    line-height: 40px;
+    color: #333333;
+    text-align: center;
+    margin-top: 120px;
+}
+.deco{
+    display: block;
+    max-width:167px;
+    height: auto;
+    margin: 20px auto;
+    margin-bottom: 47px;
+}
+.textBox{
+    height: auto;
+    font-family: ArialMT;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 26px;
+    color: #666666;
+    text-align: center;
+}
+#footer{
+    margin-top: 80px;
+}
+.inChina1{
+    margin-top: 40px;
+}
+.prompt{
+    margin-top: 40px;
+}
+@media (max-width: 1440px) {
+    .title2 {
+        margin-top: 19px;
+    }
+
+    .deco {
+        display: block;
+        max-width: 167px;
+        height: auto;
+        margin: 20px auto;
+        margin-bottom: 11px;
+    }
+}
+
+@media (max-width: 992px) {
+    .title {
+        font-family: ArialMT;
+        font-size: 30px;
+        margin-top: 72px;
+    }
+
+    .left1 {
+        bottom: 47px;
+    }
+
+    .content2 {
+        line-height: 22px;
+    }
+
+    .contentWarp {
+        margin-top: 50px;
+        padding: 31px;
+    }
+
+    .deco {
+        margin: 6px auto;
+    }
+
+    .title {
+        margin-top: 50px;
+    }
+    .rightContent2 {
+        min-height: 50px;
+    }
+    .navbar{
+        padding: 0 15px;
+    }
+    .topBar  .container {
+        width: 100%;
+    }
+    .blankWarp {
+        margin: 50px 0;
+    }
+}
+@media (max-width: 767px) {
+    .main{
+        padding-top: 0;
+    }
+    .navbar-nav{
+        background: rgba(255,255,255,.8);
+    }
+    .navbar-nav > li > a {
+        line-height: 38px;
+        padding: 0 3px;
+    }
+    .navbar-default .navbar-nav > li > a {
+        font-size: 12px;
+        text-align: center;
+    }
+    .indexTop{
+        padding: 0 ;
+        width: 100%;
+    }
+    .navbar{
+        padding: 0;
+    }
+
+    .title {
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 35px;
+    }
+    .deco {
+        width: 68px;
+       margin: 3px auto;
+    }
+
+    .topBarM{
+        width: 100%;
+        height: 44px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #969dd3;
+        z-index: 9999;
+        padding: 0 15px;
+    }
+    .topBarM .text{
+        width: 100%;
+        height:100%;
+        font-family: MicrosoftYaHei;
+        font-size: 16px;
+        line-height: 44px;
+        color: #fff;
+        text-align: center;
+    }
+    .back {
+        display: block;
+        width: 31px;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        text-align: center;
+        line-height: 44px;
+        color: #fff;
+        font-size: 24px;
+    }
+    .innerTitle{
+        height: 32px;
+        font-size: 15px;
+        line-height: 32px;
+        padding: 0 15px;
+    }
+}

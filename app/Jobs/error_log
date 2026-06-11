@@ -1,0 +1,1 @@
+[27-Jul-2019 07:44:44 UTC] PHP Fatal error:  Trait 'Illuminate\Bus\Queueable' not found in /home/zteachers/public_html/zhuojiao/app/Jobs/Job.php on line 12

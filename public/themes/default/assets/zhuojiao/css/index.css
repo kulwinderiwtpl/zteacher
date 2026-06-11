@@ -1,0 +1,308 @@
+.rightContent {
+    width: 78%;
+    /*height: 346px;*/
+    float: right;
+    background-color: #ffffff;
+    border: solid 1px #969dd3;
+    position: relative;
+}
+
+.rightContentInner {
+    width: 80%;
+    height: auto;
+    float: right;
+    margin-right: 38px;
+    font-family: ArialMT;
+    font-size: 14px;
+    line-height: 26px;
+    color: #666666;
+    text-align: justify;
+    position: relative;
+    bottom: 0;
+    margin-top: 45px;
+    /*transform: translateY(-50%);*/
+}
+
+.left1 {
+    display: block;
+    width: 29.5%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+.Delete {
+    display: block;
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.rightContent2 {
+    width: 47%;
+    height: 80%;
+    min-height: 243px;
+    float: right;
+    position: relative;
+}
+
+.title2 {
+    margin-top: 34px;
+    text-align: left;
+}
+
+.deco2 {
+    float: left;
+}
+
+.content2 {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    font-family: ArialMT;
+    font-size: 14px;
+    line-height: 26px;
+    color: #666666;
+    text-align: justify;
+}
+
+.blank {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.blankWarp {
+    margin: 100px auto;
+}
+
+.Delete2 {
+    float: right;
+}
+
+.contentWarp {
+    margin-top: 100px;
+    padding: 79px
+}
+
+.introText {
+    margin-bottom: 100px;
+}
+
+.serviceCase {
+    height: 372px;
+}
+
+.caseDl {
+    width: 24%;
+    height: 100%;
+    float: left;
+    padding: 6.8% 2.3% 4.5% 2.3%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    background: #fff;
+    border: 1px solid #cdcdcd;
+    margin-right: 1.2%;
+}
+
+.caseDl:hover {
+    box-shadow: 0 1px 20px rgba(186, 186, 186, .4);
+    transition: all 0.3s ease 0s;
+    transform: scale(1.0) translateZ(0);
+    -webkit-transform: scale(1.0) translateZ(0);
+    border: 1px solid rgba(255, 255, 255, .4);
+    background: #fff;
+}
+
+.caseDl:hover .caseTitle, .caseDl:hover .caseIntro {
+    transform: translate3d(0, 0, 0);
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.caseDt {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+
+}
+
+.caseDt img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.caseTitle {
+    width: 100%;
+    height: 27px;
+    font-family: SourceHanSansCN-Medium;
+    font-size: 16px;
+    line-height: 27px;
+    color: #333333;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 44px;
+    margin-bottom: 37px;
+    transform: translate3d(0, 0, 0);
+}
+
+.caseIntro {
+    width: 100%;
+    height: auto;
+    font-family: SourceHanSansCN-Regular;
+    font-size: 14px;
+    line-height: 26px;
+    color: #666666;
+    text-align: center;
+    transform: translate3d(0, 0, 0)
+}
+
+.inChina1 {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.index_introText {
+    border: 1px dashed #969dd3;
+    padding: 55px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.index_introText:hover {
+    box-shadow: 0 1px 20px rgba(186, 186, 186, .4);
+    transition: all 0.3s ease 0s;
+    transform: scale(1.0) translateZ(0);
+    -webkit-transform: scale(1.0) translateZ(0);
+    border: 1px solid rgba(186, 186, 186, .4);
+}
+
+.mt0 {
+    margin-top: 0;
+}
+
+.serviceWarp {
+    background: #f1f1f1;
+    padding: 50px 0 100px 0;
+}
+
+.serviceWarp .caseDl {
+    background: #ffffff;
+}
+
+.serviceWarp .introText {
+    margin-bottom: 60px;
+}
+
+.index_contentWarp {
+    margin-top: 0;
+    padding-top: 40px;
+}
+
+.index_content2 {
+    font-size: 18px;
+    line-height: 36px;
+    color: #666666;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.treatmentWarp img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+@media (max-width: 767px) {
+    .inChina1 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .textJustify {
+        text-align: justify;
+    }
+
+    .introText {
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .caseDl {
+        width: 48%;
+        margin-right: 4%;
+        margin-bottom: 2%;
+    }
+
+    .caseDlMr0{
+        margin-right: 0;
+    }
+
+    .serviceCase {
+        padding: 0 15px;
+        height: auto;
+    }
+
+    .caseTitle {
+        font-size: 13px;
+        line-height: 18px;
+        margin-top: 23px;
+        margin-bottom: 10px;
+    }
+
+    .caseDt {
+        width: 54px;
+        height: 54px;
+    }
+
+    .blankWarp {
+        margin: 50px 0;
+        margin-bottom: 0;
+    }
+
+    .main {
+        padding-bottom: 160px !important;
+        padding-top: 0;
+    }
+
+    .index_introText {
+        border: 1px solid #969dd3;
+        padding: 30px;
+        font-size: 12px;
+    }
+
+    .contentWarp {
+        margin-top: 0;
+        padding: 15px;
+    }
+    .rightContent2{
+        width: 100%;
+        min-height: 132px;
+    }
+    .index_content2 {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .Delete2 {
+        width: 80%;
+        margin: 20px auto;
+        float: none;
+    }
+}

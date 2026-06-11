@@ -1,0 +1,16 @@
+[05-Aug-2019 05:10:54 UTC] PHP Fatal error:  Uncaught ReflectionException: Class log does not exist in /home/zteachers/public_html/zhuojiao/vendor/laravel/framework/src/Illuminate/Container/Container.php:741
+Stack trace:
+#0 /home/zteachers/public_html/zhuojiao/vendor/laravel/framework/src/Illuminate/Container/Container.php(741): ReflectionClass->__construct('log')
+#1 /home/zteachers/public_html/zhuojiao/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('log', Array)
+#2 /home/zteachers/public_html/zhuojiao/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(674): Illuminate\Container\Container->make('log', Array)
+#3 /home/zteachers/public_html/zhuojiao/vendor/laravel/framework/src/Illuminate/Container/Container.php(842): Illuminate\Foundation\Application->make('log')
+#4 /home/zteachers/public_html/zhuojiao/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->resolveClass(Object(ReflectionParameter))
+#5 /home/zteachers/public_html/zhuo in /home/zteachers/public_html/zhuojiao/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 741
+[05-Aug-2019 05:57:32 UTC] PHP Fatal error:  Uncaught ReflectionException: Class log does not exist in /home/zteachers/public_html/zhuojiao/vendor/laravel/framework/src/Illuminate/Container/Container.php:741
+Stack trace:
+#0 /home/zteachers/public_html/zhuojiao/vendor/laravel/framework/src/Illuminate/Container/Container.php(741): ReflectionClass->__construct('log')
+#1 /home/zteachers/public_html/zhuojiao/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('log', Array)
+#2 /home/zteachers/public_html/zhuojiao/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(674): Illuminate\Container\Container->make('log', Array)
+#3 /home/zteachers/public_html/zhuojiao/vendor/laravel/framework/src/Illuminate/Container/Container.php(842): Illuminate\Foundation\Application->make('log')
+#4 /home/zteachers/public_html/zhuojiao/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->resolveClass(Object(ReflectionParameter))
+#5 /home/zteachers/public_html/zhuo in /home/zteachers/public_html/zhuojiao/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 741

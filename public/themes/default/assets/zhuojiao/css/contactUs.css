@@ -1,0 +1,50 @@
+.center{
+    min-height: 528px;
+    background: #fff;
+    position: relative;
+    top: -108px;
+    z-index: 100;
+}
+.textBox2{
+    margin-top: 30px;
+}
+.qrCode{
+    display: block;
+    width: 125px;
+    height: auto;
+    margin: 20px auto;
+}
+.textBox{
+    margin-top: 40px;
+}
+.imgWarp{
+    width: 100%;
+    height: auto;
+}
+.imgWarp img{
+    display: block;
+    width: 32%;
+    float: left;
+    margin-right: 2%;
+    margin-top: 20px;
+}
+.imgWarp .marginR0{
+    margin-right: 0;
+}
+@media (max-width: 767px) {
+    .textBox{
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .imgWarp {
+        width: 100%;
+        height: auto;
+        padding: 0 15px;
+    }
+    .layui-fixbar{
+        display: none;
+    }
+}
+.center{
+    top: 0;
+}

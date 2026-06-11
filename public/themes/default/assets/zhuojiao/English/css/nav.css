@@ -1,0 +1,538 @@
+
+.LogoWarp{
+    display: none;
+    float: left;
+    width: 15.5%;
+    height:auto;
+    position: absolute;
+    left: 0;
+    top: -40%;
+}
+.LogoWarpTop{
+    display: block;
+    float: left;
+    width: 6.5%;
+    height:auto;
+    position: absolute;
+    left: 0;
+    top: 42%;
+}
+.LogoWarp2{
+    display: block;
+    float: left;
+    width: 4.5%;
+    height:auto;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.LogoWarp img , .LogoWarp2 img , .LogoWarpTop img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.userLi{
+    position: relative;
+    /*display: none;*/
+}
+.dropDown{
+    width: 126px;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    background: #ebebeb;
+    z-index: 16468468468;
+}
+.dropDownLi{
+    width: 100%;
+    height: 41px;
+    line-height: 41px;
+    background-color: #ebebeb;
+    font-family: SourceHanSansCN-Regular;
+    font-size: 16px;
+    color:#333333;
+    text-align: center;
+}
+.topUl .dropDownLi a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.dropDownLi:hover a{
+    background: #969dd3;
+    color: #ffffff;
+}
+@media (min-width: 768px) {
+    .indexTop{
+        padding: 0;
+    }
+    .navbar{
+        transition: all 0.3s ease 0s;
+    }
+    .topBig{
+        top: 52px;
+        transition: all 0.3s ease 0s;
+    }
+    .navbar-nav{
+        float: right;
+    }
+    .navbar-nav > li > a {
+        line-height: 76px;
+        padding: 0 15px;
+        font-family: Arial-BoldMT;
+        font-size: 20px;
+        font-weight: normal;
+        color: #333333;
+    }
+    .navbar-default .navbar-nav > li > a{
+        transition: all 0.5s ease 0s;
+    }
+    .navbar-default .navbar-nav > li > a:hover{
+        color: #969dd3;
+        transition: all 0.5s ease 0s;
+    }
+    .navbar-nav li{
+        margin-left: 20px;
+    }
+    .topBar{
+        width: 100%;
+        height: 52px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        background: #ffffff;
+        z-index: 999;
+    }
+    .topBar2 {
+        width: 100%;
+        height: 52px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        background: #ffffff;
+        z-index: 1033;
+    }
+    .userBox {
+        max-width: 20%;
+        height: 38px;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .userHead{
+        width: 38px;
+        height: 38px;
+        /*background-color: #e87851;*/
+        float: right;
+        border-radius: 50%;
+        cursor: pointer;
+        overflow: hidden;
+    }
+    .userName{
+        display: block;
+        float: left;
+        width: auto;
+        height: 100%;
+        line-height: 38px;
+        font-family: SourceHanSansCN-Regular;
+        font-size: 14px;
+        color: #333333;
+        text-align: right;
+        padding-right: 4px;
+        max-width: 78%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .userHead img{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .topUl{
+        float: right;
+    }
+    .topUl li{
+        height: 100%;
+        /*padding:0 4px;*/
+        float: left;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .topUl li a{
+        /*display: block;*/
+        /*width: 100%;*/
+        height: auto;
+        font-family: MicrosoftYaHei;
+        font-size: 14px;
+        color: #333333;
+        line-height: 52px;
+        padding: 0 20px;
+    }
+    .middle a{
+        border-right: 2px solid #666666;
+        border-left: 2px solid #666666;
+    }
+    .loginIcon {
+        display: block;
+        float: left;
+        width: 17px;
+        height: 15px;
+        margin-top: 31%;
+        vertical-align: middle;
+        margin-right: 4px;
+    }
+}
+@media (max-width: 1440px ) {
+    .navbar-nav > li > a {
+        padding: 0 4px;
+    }
+}
+@media (max-width: 992px) {
+
+    .topUl li a {
+        padding: 0 9px;
+    }
+    .userName {
+        font-size: 12px;
+        max-width: 69%;
+    }
+    .searchWarp {
+        width: 131px;
+        height: 25px;
+        /* background: #5bc0de; */
+        float: right;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translate(0, -50%);
+        border: 1px solid #e7eaef;
+        border-radius: 40px;
+        overflow: hidden;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        font-size: 14px;
+        text-align: center;
+    }
+    .LogoWarp {
+        left: 0;
+        top: -62%;
+    }
+    .searchBtn {
+        width: 20%;
+        float: right;
+        height: 100%;
+        line-height: 20px;
+        text-align: center;
+        border: none;
+        outline: none;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(0, -50%);
+        background: none;
+    }
+
+    .searchBtn span {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .indexTop {
+        position: relative;
+        width: 80%;
+    }
+}
+
+@media (max-width: 1300px) {
+    .indexTop {
+        position: relative;
+        width: 90%;
+    }
+
+    .navbar-nav > li > a {
+        padding: 0 10px;
+        font-size: 15px;
+        color: #212121;
+    }
+}
+
+@media (max-width: 1073px) {
+    .indexTop {
+        position: relative;
+        width: 97%;
+    }
+
+    .navbar-nav > li > a {
+        padding: 0 7px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-nav > li > a {
+        line-height: 66px;
+        padding: 0 15px;
+    }
+
+    .navbar {
+        min-height: 71px;
+        height: 71px;
+    }
+
+    .logo {
+        width: 180px;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        width: 78%;
+    }
+
+    .navbar-nav li {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 890px) {
+    .indexTop {
+        position: relative;
+        width: 97%;
+    }
+
+    .navbar-nav > li > a {
+        padding: 0 7px;
+    }
+
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+        font-size: 14px;
+    }
+
+    .navbar-nav > li > a {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        width: 42%;
+    }
+    .searchWarp {
+        width: 76%;
+        position: absolute;
+        left: 2%;
+        top: 10px;
+        background: rgba(255, 255, 255, .6);
+        transform: translate(0, 0);
+        border: none;
+    }
+    .LogoWarp2 , .LogoWarp{
+        display:none;
+    }
+
+    .navbar-nav {
+        margin: 0 auto;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .navbar-nav > li > a {
+        line-height: 38px;
+        padding: 0 15px;
+    }
+
+    .indexTop {
+        height: auto;
+        padding-top: 0;
+    }
+
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-top: 0;
+        padding: 0;
+    }
+
+    .topBlank {
+        height: 50px;
+    }
+
+    .navbar-collapse {
+        width: 36%;
+        float: right;
+        box-shadow: 0 1px 5px #666666;
+        position: relative;
+        margin-top: 3px;
+    }
+
+    .navMask {
+        width: 100%;
+        height: 100%;
+        background: #ffffff;
+        opacity: .8;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+    }
+
+    .navbar-default .navbar-toggle {
+        border: 0;
+    }
+
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background: none;
+        border: 0;
+    }
+
+    .navbar-header {
+        width: auto;
+    }
+
+    .navbar {
+        min-height: 50px;
+        height: 50px;
+    }
+
+    main {
+        padding-top: 0;
+    }
+
+    .navbar-default {
+        background: none !important;
+        border: none;
+    }
+
+    .searchInput {
+        background: none;
+    }
+
+    .footer-m {
+        width: 100%;
+        height: 50px;
+        background-color: #ffffff;
+        box-shadow: 0 -5px 5px 1px rgba(242, 241, 237, 0.3);
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 999;
+    }
+    body main{
+        padding-bottom: 50px!important;
+    }
+    .footer-mBtn{
+        display: block;
+        float: left;
+        width: 25%;
+        height: 100%;
+        padding-top:6px;
+        padding-bottom: 5px;
+    }
+    .footer-mBtn span{
+        display: block;
+        width: 100%;
+        color: #666666;
+    }
+    .footer-m .iconfont{
+        height:20px;
+        line-height:20px ;
+        text-align: center;
+        font-size: 22px;
+    }
+    .bottomText {
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        font-family: SourceHanSansCN-Normal;
+        font-size: 10px;
+        color: #666666;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .navbar-default {
+        background-color: #fff !important;
+    }
+
+    html, body {
+        min-width: 100%
+    }
+
+    .indexTop {
+        width: 100%;
+        padding: 0;
+        height: 50px;
+    }
+    .navbar {
+        min-height: 50px;
+        height: 50px;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        width: 74%;
+        box-shadow: none;
+        height: 47px!important;
+        background: #ffffff !important;
+        float: right;
+    }
+
+    .searchWarp {
+        position: absolute;
+        width: 23%;
+        left: 76%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .navbar-header {
+        background: #ffffff !important;
+        padding-left: 6px;
+    }
+
+    .mobileR0 {
+        margin-right: 0;
+    }
+    .logo {
+        width: 127px;
+    }
+    .navbar-nav > li > a {
+        line-height: 46px;
+        padding: 0 8px;
+    }
+    .searchWarp {
+        border: 1px solid #e7eaef;
+        border-radius: 40px;
+        overflow: hidden;
+    }
+    .searchBtn span {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .navbar-nav{
+        background: rgba(255,255,255,.8);
+    }
+    navbar-nav > li > a {
+        line-height: 38px;
+        padding: 0 3px;
+    }
+    .navbar-default .navbar-nav > li > a {
+        font-size: 12px;
+        text-align: center;
+    }
+    .indexTop{
+        padding: 0 ;
+        width: 100%;
+    }
+    .navbar{
+        padding: 0;
+    }
+
+}

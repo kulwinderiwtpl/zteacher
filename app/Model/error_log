@@ -1,0 +1,8 @@
+[27-Jul-2019 07:45:17 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/zteachers/public_html/zhuojiao/app/Model/AverageWageModel.php on line 9
+[27-Jul-2019 07:45:19 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/zteachers/public_html/zhuojiao/app/Model/BannerModel.php on line 9
+[27-Jul-2019 07:45:21 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/zteachers/public_html/zhuojiao/app/Model/ConsumptionModel.php on line 9
+[27-Jul-2019 07:45:22 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/zteachers/public_html/zhuojiao/app/Model/ContentNavModel.php on line 9
+[27-Jul-2019 07:45:24 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/zteachers/public_html/zhuojiao/app/Model/MyUsersModel.php on line 14
+[27-Jul-2019 07:45:26 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/zteachers/public_html/zhuojiao/app/Model/NavModel.php on line 9
+[27-Jul-2019 07:45:28 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/zteachers/public_html/zhuojiao/app/Model/ResumeModel.php on line 9
+[27-Jul-2019 07:45:30 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/zteachers/public_html/zhuojiao/app/Model/WeBsiteModel.php on line 9

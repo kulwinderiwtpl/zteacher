@@ -1,0 +1,1 @@
+[27-Jul-2019 07:44:15 UTC] PHP Fatal error:  Class 'Illuminate\Validation\Validator' not found in /home/zteachers/public_html/zhuojiao/app/Extensions/VilidateValidator.php on line 10

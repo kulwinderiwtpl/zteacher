@@ -1,0 +1,111 @@
+.registerBtn{
+    display: block;
+    width: 179px;
+    height: 43px;
+    margin-top: 20px;
+    background-color: #969dd3;
+    font-family: SourceHanSansCN-Medium;
+    font-size: 18px;
+    line-height: 43px;
+    color: #ffffff;
+    text-align: center;
+}
+.joinBottom{
+    background: url("../images/bg01.png") no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 190px;
+    margin-top: 200px;
+}
+.caseWarp{
+    min-height: 260px;
+    margin-top: 68px;
+}
+.caseWarp img{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+#footer{
+    margin-top: 0;
+}
+.joinUs_textBox {
+    width: 43%;
+    text-align: left;
+    margin-top: 50px;
+}
+.joinUs_textBox li{
+    list-style: decimal;
+}
+.rightContent {
+    width: 59%;
+    float: left;
+}
+.left1 {
+    width: 37%;
+    float: right;
+}
+
+@media(max-width: 1440px) {
+    .joinUs_textBox {
+        width: 57%;
+        text-align: left;
+        margin-top: 50px;
+    }
+}
+
+@media(max-width: 992px) {
+    .joinUs_textBox {
+        width: 71%;
+        text-align: left;
+    }
+    .joinBottom {
+        padding-bottom: 90px;
+        margin-top: 80px;
+    }
+}
+@media (max-width: 767px) {
+    .joinBottom {
+        background: url(../images/bg01.png) no-repeat;
+        background-size: 100% 100%;
+        padding-bottom: 40px;
+        margin-top: 20px;
+    }
+    .caseWarp {
+        min-height: 89px;
+        margin-top: 25px;
+    }
+    .caseWarp img {
+        display: block;
+        width: 91%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .registerBtn{
+        height: 30px;
+        font-family: SourceHanSansCN-Regular;
+        font-size: 14px;
+        line-height: 30px;
+        color: #ffffff;
+        float: none;
+        margin: 20px auto;
+    }
+    .joinBottom{
+        padding: 15px;
+    }
+    .joinUs_textBox {
+        width: 100%;
+        text-align: left;
+        margin-top: 20px;
+    }
+    .left1 {
+        width: 64%;
+        float: none;
+        margin: 0 auto;
+    }
+    .rightContent {
+        width: 100%;
+        float: left;
+    }
+}

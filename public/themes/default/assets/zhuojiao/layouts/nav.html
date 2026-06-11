@@ -1,0 +1,80 @@
+<div class="topBar2 hidden-xs">
+    <div class="container padding0 hidden-xs" style="position: relative">
+        <ul class="topUl">
+            <li class="hidden-xs userLi" style="padding-right: 20px">
+                <a href="javascript:void(0)" class="userName">蕾蕾酱</a>
+                <div class="userHead" style="transform: translateY(11%)">
+                    <img src="images/headImg.png" alt="">
+                </div>
+                <ul class="dropDown">
+                    <li class="dropDownLi">
+                        <a target="_blank" href="publish.html">个人中心</a>
+                    </li>
+                    <li class="dropDownLi">
+                        <a class="logOut" href="javascript:void(0)">退出登录</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="notLogin"><a href="login.html" target="_blank" style="display: block"><img class="loginIcon" src="images/loginIcon.png" alt="">登录</a></li>
+            <li class="middle"><a href="https://sdcuihe.com/zhuojiao_Chinese/index.html">聘请外教</a></li>
+            <li><a href="https://sdcuihe.com/zhuojiao_English/index.html">GET HIRED</a></li>
+        </ul>
+        <a href="index.html" class="LogoWarpTop hidden-xs">
+            <img class="hidden-xs" src="images/TLogo.png" alt="">
+        </a>
+    </div>
+</div>
+<!--导航-->
+<nav class="navbar navbar-default navbar-fixed-top topBig"   role="navigation">
+    <div class="container indexTop">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#example-navbar-collapse">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a class="aboutUs" href="index.html">关于我们</a></li>
+                <li><a class="hiring" href="hiring.html">聘请外教</a></li>
+                <li><a class="publish" href="publish.html">发布工作</a></li>
+                <li><a class="talentPool" href="talentPool.html">外教人才库</a></li>
+                <li><a class="contactUs" href="contactUs.html">联系我们</a></li>
+                <li><a class="login hidden-lg  hidden-md hidden-sm" href="login.html">登录</a></li>
+            </ul>
+        </div>
+        <a href="index.html" class="LogoWarp hidden-xs">
+            <img class="hidden-xs" src="images/TLogo.png" alt="">
+        </a>
+    </div>
+
+</nav>
+<!--导航 end-->
+<script>
+    $(".userLi").hover(function () {
+        $(".dropDown").stop(true,true).slideDown(200);
+    },function () {
+        $(".dropDown").stop(true,true).slideUp(200);
+    });
+
+    //    测试 登陆样式
+    var status = 1;
+    if(status==0){
+        console.log(0);
+        $(".userLi").stop(true,true).hide();
+        $(".notLogin").stop(true,true).show()
+    }else{
+        console.log(1);
+        $(".userLi").stop(true,true).show();
+        $(".notLogin").stop(true,true).hide();
+
+    }
+    $(".logOut").click(function () {
+        $(this).parents(".userLi").stop(true,true).hide();
+        $(".notLogin").stop(true,true).show();
+        status=0
+    });
+</script>

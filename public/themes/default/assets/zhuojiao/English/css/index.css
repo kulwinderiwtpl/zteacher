@@ -1,0 +1,178 @@
+.rightContent {
+    width: 78%;
+    /*height: 346px;*/
+    float: right;
+    background-color: #ffffff;
+    border: solid 1px #969dd3;
+    position: relative;
+}
+
+.rightContentInner {
+    width: 80%;
+    height: auto;
+    float: right;
+    margin-right: 38px;
+    font-family: ArialMT;
+    font-size: 14px;
+    line-height: 26px;
+    color: #666666;
+    text-align: justify;
+    position: relative;
+    bottom: 0;
+    margin-top: 45px;
+    /*transform: translateY(-50%);*/
+}
+
+/*.left1 {*/
+    /*display: block;*/
+    /*width: 29.5%;*/
+    /*height: auto;*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*bottom: 0;*/
+    /*z-index: 2;*/
+/*}*/
+
+.Delete {
+    display: block;
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.rightContent2 {
+    width: 47%;
+    height: 80%;
+    min-height: 243px;
+    float: right;
+}
+
+.title2 {
+    margin-top: 34px;
+    text-align: left;
+}
+
+.deco2 {
+    float: left;
+}
+
+.content2 {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    font-family: ArialMT;
+    font-size: 14px;
+    line-height: 26px;
+    color: #666666;
+    text-align: justify;
+}
+
+.blank {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.blankWarp {
+    margin: 100px 0;
+}
+
+.Delete2 {
+    float: right;
+}
+
+.contentWarp {
+    margin-top: 100px;
+    padding: 79px
+}
+
+.Indexleft1 {
+    display: block;
+    width: 28.5%;
+    height: auto;
+    position: absolute;
+    left: 67px;
+    bottom: 3px;
+    z-index: 2;
+}
+@media (max-width: 1200px) {
+    .contentWarp{
+        padding: 0;
+    }
+    .title2{
+        margin-top: 80px;
+    }
+}
+.IndexrightContent {
+    width: 68%;
+    /* height: 346px; */
+    float: right;
+    background-color: #ffffff;
+    border: solid 1px #969dd3;
+    position: relative;
+    padding-bottom: 26px;
+}
+
+@media (max-height: 767px) {
+    .title2 {
+        margin-top: 0;
+    }
+    .left1 {
+        display: block;
+        width: 50%;
+        height: auto;
+        position: relative;
+        left: 0;
+        bottom: 0;
+        z-index: 2;
+        margin: 0 auto;
+    }
+
+    .rightContent {
+        width: 100%;
+        border: none;
+        margin-top: 25px;
+    }
+
+    .rightContentInner {
+        float: none;
+        margin: 0 auto;
+
+    }
+
+    .contentWarp{
+        padding: 15px;
+        margin-top: 10px;
+    }
+
+    .rightContent2{
+        width: 100%;
+    }
+
+    .title2{
+        text-align: center;
+    }
+
+    .deco2{
+        float: none;
+        margin: 3px auto;
+    }
+
+    .rightContent2 {
+        height: auto;
+        min-height: 198px;
+    }
+
+    .Delete {
+        display: block;
+        width: 84%;
+        height: auto;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .blankWarp {
+        margin: 30px 0;
+    }
+
+}

@@ -1,0 +1,151 @@
+.title {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 100px;
+    font-family: ArialMT;
+    font-size: 30px;
+    line-height: 30px;
+    color: #333333;
+}
+
+.titleChinese {
+    width: 100%;
+    height: 30px;
+    font-family: SourceHanSansCN-Medium;
+    font-size: 30px;
+    line-height: 30px;
+    color: #333333;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.deco {
+    display: block;
+    max-width: 167px;
+    height: auto;
+    margin: 8px auto;
+    margin-bottom: 8px;
+}
+
+.textBox {
+    height: auto;
+    line-height: 26px;
+    color: #666666;
+    text-align: center;
+    font-family: SourceHanSansCN-Regular;
+    font-size: 14px;
+}
+
+.introText {
+    margin-top: 30px;
+}
+
+.introImg {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#footer {
+    margin-top: 80px;
+}
+
+.inChina1 {
+    margin-top: 40px;
+}
+
+.prompt {
+    margin-top: 40px;
+}
+
+.more {
+    display: block;
+    width: 180px;
+    height: 43px;
+    background-color: #969dd3;
+    border-radius: 2px;
+    margin: 0 auto;
+    font-family: SourceHanSansCN-Regular;
+    font-size: 18px;
+    line-height: 43px;
+    color: #ffffff;
+    text-align: center;
+}
+
+@media (max-width: 1440px) {
+    .title2 {
+        margin-top: 19px;
+    }
+
+    .deco {
+        display: block;
+        max-width: 167px;
+        height: auto;
+        margin: 20px auto;
+        margin-bottom: 11px;
+    }
+}
+
+@media (max-width: 992px) {
+    .title {
+        font-family: ArialMT;
+        font-size: 30px;
+        margin-top: 72px;
+    }
+
+    .left1 {
+        bottom: 47px;
+    }
+
+    .content2 {
+        line-height: 22px;
+    }
+
+    .contentWarp {
+        margin-top: 50px;
+        padding: 31px;
+    }
+
+    .deco {
+        margin: 6px auto;
+    }
+
+    .title {
+        margin-top: 13px;
+    }
+
+    .rightContent2 {
+        min-height: 50px;
+    }
+
+    .navbar {
+        padding: 0 15px;
+    }
+
+    .topBar .container {
+        width: 100%;
+    }
+
+    .blankWarp {
+        margin: 50px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .title {
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 35px !important;
+    }
+
+    .deco {
+        width: 18px;
+        height: 1px;
+    }
+
+    .layui-fixbar {
+        display: none;
+    }
+}

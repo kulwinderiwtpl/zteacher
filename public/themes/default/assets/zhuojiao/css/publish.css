@@ -1,0 +1,520 @@
+.publishInner {
+    padding: 38px 0;
+}
+
+.leftBox {
+    width: 23.5%;
+    height: 727px;
+    background-color: #ffffff;
+    box-shadow: 0 0 4px 0 rgba(225, 225, 225, 0.3);
+    float: left;
+    padding: 44px 0;
+}
+
+.rightBox {
+    width: 74.8%;
+    min-height: 500px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 4px 0px rgba(225, 225, 225, 0.3);
+    float: right;
+    display: none;
+}
+
+.rightBox1 {
+    display: block;
+}
+
+.headBox {
+    width: 100%;
+    height: 82px;
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+
+.dropArea {
+    width: 34%;
+    height: 82.27px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: solid 1px #c9c9c9;
+    float: left;
+    margin: 0;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+.dropArea img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.uName {
+    width: 50%;
+    height: 50%;
+    float: left;
+    font-family: SourceHanSansCN-Medium;
+    font-size: 21px;
+    line-height: 26px;
+    color: #333333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#uploadBtn {
+    width: 50%;
+    height: 50%;
+    font-family: SourceHanSansCN-Normal;
+    text-decoration: underline;
+    font-size: 18px;
+    line-height: 26px;
+    color: #ff253a;
+    background: none;
+    padding: 0;
+    text-align: left;
+}
+
+.dropArea .demoText {
+    text-align: center;
+}
+
+.dropArea .layui-btn {
+    background: #969dd3;
+}
+
+.tabUl {
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    padding-top: 27px;
+    border-top: solid 1px #e8e8e8;
+}
+
+.tabLi {
+    width: 100%;
+    height: 33px;
+    margin-bottom: 28px;
+    font-family: SourceHanSansCN-Regular;
+    font-size: 18px;
+    line-height: 33px;
+    color: #191919;
+    padding: 0 10%;
+    cursor: pointer;
+}
+
+.topTittle {
+    width: 100%;
+    height: 54px;
+    background-color: #969dd3;
+    padding: 0 30px;
+    font-family: SourceHanSansCN-Bold;
+    font-size: 18px;
+    line-height: 54px;
+    color: #ffffff;
+}
+
+.inputWarp {
+    width: 100%;
+    height: 57px;
+    margin-bottom: 30px;
+}
+
+.leftTittle {
+    display: block;
+    float: left;
+    width: 30%;
+    height: 57px;
+    text-align: right;
+    padding-right: 2%;
+    line-height: 57px;
+    font-family: SourceHanSansCN-Regular;
+    font-size: 18px;
+    color: #333333;
+}
+
+.inputBox, .selectWarp .layui-input, .layui-textarea {
+    width: 70%;
+    height: 57px;
+    float: left;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: solid 1px #cccccc;
+    padding-left: 4px;
+    position: relative;
+    font-family: SourceHanSansCN-Regular;
+    font-size: 18px;
+    color: #999999;
+}
+
+.form {
+    width: 90%;
+    margin: 0 auto;
+    padding: 27px 0;
+}
+
+.form .layui-form-select .layui-edge {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -3px;
+    cursor: pointer;
+    border-width: 6px;
+    border-top-color: #c2c2c2;
+    border-top-style: solid;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+}
+
+.layui-form-select {
+    position: relative;
+    height: 100%;
+}
+
+.layui-form-select dl {
+    left: 30%;
+    top: 57px;
+    min-width: 70%;
+}
+
+.submit {
+    display: block;
+    width: 70%;
+    height: 60px;
+    float: right;
+    background-color: #969dd3;
+    border-radius: 5px;
+    font-family: ArialMT;
+    font-size: 28px;
+    line-height: 60px;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+}
+
+.layui-form-select dl dd.layui-this {
+    background-color: #969dd3;
+}
+
+#time::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    font-family: SourceHanSansCN-Regular;
+    font-size: 18px;
+    color: #999999;
+}
+
+#time:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    font-family: SourceHanSansCN-Regular;
+    font-size: 18px;
+    color: #999999;
+}
+
+#time::-moz-placeholder { /* Mozilla Firefox 19+ */
+    font-family: SourceHanSansCN-Regular;
+    font-size: 18px;
+    color: #999999;
+}
+
+#time:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-family: SourceHanSansCN-Regular;
+    font-size: 18px;
+    color: #999999;
+}
+
+.ga .layui-form-select {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+
+.ga .layui-form-select input {
+    width: 100%;
+}
+
+.jobCase {
+    width: 100%;
+    height: auto;
+    padding: 56px 60px;
+    border-bottom: solid 1px #e8e8e8;
+}
+
+.caseList {
+    width: 100%;
+    height: 36px;
+    font-family: SourceHanSansCN-Regular;
+    font-size: 18px;
+    line-height: 36px;
+    color: #333333;
+}
+
+.caseList div {
+    width: 50%;
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.editWarp {
+    width: 100%;
+    height: 36px;
+    margin-bottom: 20px;
+}
+
+.editWarp a {
+    display: block;
+    float: left;
+    width: 117px;
+    height: 36px;
+    background-color: #ffffff;
+    border-radius: 18px;
+    border: solid 1px #969dd3;
+    font-family: SourceHanSansCN-Medium;
+    font-size: 18px;
+    line-height: 36px;
+    color: #969dd3;
+    text-align: center;
+    margin-right: 5%;
+}
+
+.layui-form-select dl dd {
+    background: #fff;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, .1);
+    /*border-left: 1px solid #d2d2d2;*/
+    /*border-right: 1px solid #d2d2d2;*/
+}
+
+.layui-form-select dl {
+    /*width: 100%;*/
+    overflow-y: unset;
+}
+
+.ga .layui-form-select dl {
+    left: 0;
+    min-width: 100%;
+}
+
+@media (max-width: 1440px) {
+    .dropArea {
+        height: 66px;
+    }
+
+    .uName {
+        height: 38%;
+    }
+}
+@media (max-width: 992px){
+    .caseList {
+        height: 30px;
+        font-size: 16px;
+        line-height: 30px;;
+    }
+    .dropArea {
+        height: 46px;
+    }
+    .uName , .topTittle ,#uploadBtn , .inputBox, .selectWarp .layui-input, .layui-textarea , .tabLi ,.leftTittle{
+        font-size: 16px;
+    }
+    #time::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+        font-family: SourceHanSansCN-Regular;
+        font-size: 16px;
+        color: #999999;
+    }
+
+    #time:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        font-family: SourceHanSansCN-Regular;
+        font-size: 16px;
+        color: #999999;
+    }
+
+    #time::-moz-placeholder { /* Mozilla Firefox 19+ */
+        font-family: SourceHanSansCN-Regular;
+        font-size: 16px;
+        color: #999999;
+    }
+
+    #time:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        font-family: SourceHanSansCN-Regular;
+        font-size: 16px;
+        color: #999999;
+    }
+}
+
+@media (max-width: 767px) {
+    .main {
+        padding-top: 0;
+    }
+
+    .jobCase {
+        padding: 15px;
+    }
+
+    .headBox {
+        background: #969dd3;
+        padding: 20px 0;
+        margin-bottom: 0;
+    }
+
+    .leftBox {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    .dropArea {
+        float: none;
+        margin: 0 auto;
+        border-radius: 50%;
+        overflow: hidden;
+        width: 73px;
+        height: 73px;
+    }
+
+    .headBox {
+        height: auto;
+    }
+
+    .uName {
+        width: 100%;
+        text-align: center;
+        font-family: SourceHanSansCN-Medium;
+        font-size: 14px;
+        line-height: 30px;
+        color: #ffffff;
+    }
+
+    #uploadBtn {
+        display: block;
+        margin: 5px auto;
+        float: none;
+        text-align: center;
+    }
+
+    .publishInner {
+        padding-top: 0;
+    }
+
+    .tabLi {
+        width: 33%;
+        height: 33px;
+        float: left;
+        margin-bottom: 28px;
+        font-family: SourceHanSansCN-Regular;
+        font-size: 12px;
+        line-height: 33px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .tabLi span {
+        display: block;
+        width: 100%;
+        height: 24px;
+        line-height: 24px;
+        font-size: 24px;
+        margin-bottom: 6px;
+    }
+
+    .tabUl {
+        width: 100%;
+        height: 92px;
+        min-height: auto;
+        padding-top: 20px;
+    }
+
+    .rightBox {
+        width: 100%;
+    }
+
+    .leftTittle {
+        font-size: 12px;
+        line-height: 34px;
+    }
+
+    .inputWarp {
+        height: 34px;
+    }
+
+    .inputBox, .selectWarp .layui-input, .layui-textarea {
+        height: 34px;
+        border: solid 1px #999999;
+        font-size: 12px;
+    }
+
+    #time::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+        font-family: SourceHanSansCN-Regular;
+        font-size: 12px;
+        color: #999999;
+    }
+
+    #time:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        font-family: SourceHanSansCN-Regular;
+        font-size: 12px;
+        color: #999999;
+    }
+
+    #time::-moz-placeholder { /* Mozilla Firefox 19+ */
+        font-family: SourceHanSansCN-Regular;
+        font-size: 12px;
+        color: #999999;
+    }
+
+    #time:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        font-family: SourceHanSansCN-Regular;
+        font-size: 12px;
+        color: #999999;
+    }
+
+    .leftTittle2 {
+        line-height: 18px;
+    }
+
+    .layui-fixbar {
+        display: none;
+    }
+
+    .submit {
+        margin-top: 0;
+        height: 34px;
+        font-size: 14px;
+        line-height: 34px;
+    }
+
+    .caseList {
+        font-size: 12px;
+        line-height: 20px;
+        height: auto;
+        min-height: 28px;
+    }
+
+    .caseList div {
+        line-height: 28px;
+    }
+
+    .caseList .lang {
+        width: 100%;
+    }
+
+    .editWarp {
+        width: 100%;
+        height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .editWarp a {
+        display: block;
+        float: left;
+        width: 60px;
+        height: 20px;
+        background-color: #ffffff;
+        border-radius: 18px;
+        border: solid 1px #969dd3;
+        font-family: SourceHanSansCN-Medium;
+        font-size: 12px;
+        line-height: 20px;
+        color: #969dd3;
+        text-align: center;
+        margin-right: 5%;
+    }
+}

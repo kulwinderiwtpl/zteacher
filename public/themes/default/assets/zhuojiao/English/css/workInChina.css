@@ -1,0 +1,169 @@
+.Delete2 {
+    width: 34.8%;
+    float: right;
+}
+.rightContent2{
+    width: 60%;
+}
+.title_small{
+    width:100%;
+    height:auto;
+    font-family: ArialMT;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #969dd3;
+}
+.marginT0{
+    margin-top: 0;
+}
+.contentWarp{
+    padding: 79px 0;
+}
+.permitWarp{
+    margin-bottom: 50px;
+}
+.inChina1Warp{
+    margin-top: 50px;
+}
+.rightContent_2 {
+    width: 50%;
+}
+.rightInner2{
+    width: 94%;
+    height: auto;
+    float: right;
+     margin-right:0;
+    font-family: ArialMT;
+    font-size: 14px;
+    line-height: 26px;
+    color: #666666;
+    text-align: justify;
+    position: relative;
+    bottom: 0;
+    margin-top: 45px;
+}
+.listUl li{
+    list-style: disc;
+}
+.tittleS{
+    margin: 20px auto;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    /*height: 40px;*/
+    /*position: relative;*/
+}
+.tittleS_line{
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #969dd3;
+    margin: 5px auto;
+}
+.left1 {
+    width: 33%;
+}
+.rightContent {
+    width: 50%;
+}
+.inChina1 img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.rightContentInner {
+    width: 86%;
+}
+.listUl{
+    width: 100%;
+}
+.left1 {
+    width: 37%;
+}
+.content2{
+    text-align: left;
+}
+@media (max-width: 1440px) {
+    .left1 {
+        width: 45%;
+        margin-top: 25px;
+    }
+    .rightContentInner {
+        width: 88%;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 992px) {
+    /*.left1 {*/
+        /*width: 50%;*/
+        /*margin: 0 auto;*/
+        /*float: none;*/
+    /*}*/
+
+    /*.rightContent {*/
+        /*width: 100%;*/
+        /*margin: 30px auto;*/
+    /*}*/
+
+    /*.rightContentInner {*/
+        /*margin-top: 0;*/
+        /*margin-right: 0;*/
+    /*}*/
+
+    /*.Delete {*/
+        /*width: 46%;*/
+        /*float: none;*/
+        /*margin: 20px auto;*/
+    /*}*/
+
+    /*.Delete2 {*/
+        /*float: none;*/
+        /*margin: 20px auto;*/
+    /*}*/
+
+    /*.contentWarp {*/
+        /*padding: 20px 0;*/
+
+    /*}*/
+
+    /*.rightContent2 {*/
+        /*width: 100%;*/
+    /*}*/
+}
+@media(max-width: 767px){
+    .textBox{
+        line-height: 20px;
+    }
+    .content2{
+        font-size: 12px;
+    }
+    .inChina1 img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .rightContentInner , .rightContent_2 , .rightContent2{
+        width: 100%;
+        height: auto;
+        padding: 15px;
+        font-size: 12px;
+    }
+    .Delete2 {
+        width: 54%;
+        float: none;
+    }
+    .centerM{
+        text-align: center;
+    }
+    .contentWarp {
+        padding: 14px 0;
+    }
+    .title_small {
+        font-size: 14px;
+    }
+    .rightContent {
+        width: 100%;
+        margin-top: 0;
+    }
+}

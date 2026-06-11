@@ -1,0 +1,1 @@
+[27-Jul-2019 01:18:29 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Application' not found in /home/zteachers/public_html/zhuojiao/bootstrap/app.php on line 14
